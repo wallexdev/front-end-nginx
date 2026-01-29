@@ -1,0 +1,50 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# =========================
+# Flask
+# =========================
+instance/
+.webassets-cache
+
+# Arquivos de configuração sensíveis
+.env
+.env.local
+.env.dev
+.env.prod
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Cache / Testes
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# IDEs / Editores
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Sistema Operacional
+# =========================
+.DS_Store
+Thumbs.db
